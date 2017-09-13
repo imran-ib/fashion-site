@@ -1,0 +1,103 @@
+/*HTML elements have the box-sizing property set to border-box*/
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	 
+}
+.rwo{
+
+}
+/*Clear floats*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .wrapper-col-md-1 {
+    	width: 8.33%;
+    }
+    .wrapper-col-md-2 {
+    	width: 16.66%;
+    }
+    .wrapper-col-md-3 {
+    	width: 25%;
+    }
+    .wrapper-col-md-4 {
+    	width: 33.33%;
+    }
+    .wrapper-col-md-5 {
+    	width: 41.66%;
+    }
+    .wrapper-col-md-6 {
+    	width: 50%;
+    }
+    .wrapper-col-md-7 {
+    	width: 58.33%;
+    }
+    .wrapper-col-md-8 {
+    	width: 66.66%;
+    }
+    .wrapper-col-md-9 {
+    	width: 75%;
+    }
+    .wrapper-col-md-10 {
+    	width: 83.33%;
+    }
+    .wrapper-col-md-11 {
+    	width: 91.66%;
+    }
+    .wrapper-col-md-12 {
+    	width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .wrapper.col-1 {
+    	width: 8.33%;
+    }
+    .wrapper.col-2 {
+    	width: 16.66%;
+    }
+    .wrapper.col-3 {
+    	width: 25%;
+    }
+    .wrapper.col-4 {
+    	width: 33.33%;
+    }
+    .wrapper.col-5 {
+    	width: 41.66%;
+    }
+    .wrapper.col-6 {
+    	width: 50%;
+    }
+    .wrapper.col-7 {
+    	width: 58.33%;
+    }
+    .wrapper.col-8 {
+    	width: 66.66%;
+    }
+    .wrapper.col-9 {
+    	width: 75%;
+    }
+    .wrapper.col-10 {
+    	width: 83.33%;
+    }
+    .wrapper.col-11 {
+    	width: 91.66%;
+    }
+    .wrapper.col-12 {
+    	width: 100%;
+    }
+}
